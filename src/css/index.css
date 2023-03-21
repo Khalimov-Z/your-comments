@@ -1,0 +1,79 @@
+.comments-block {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; }
+  .comments-block h2 {
+    font-size: 24px;
+    margin-bottom: 20px; }
+  .comments-block form {
+    margin-bottom: 20px; }
+    .comments-block form .form-group {
+      margin-bottom: 10px; }
+      .comments-block form .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      .comments-block form .form-group input[type="text"],
+      .comments-block form .form-group textarea,
+      .comments-block form .form-group input[type="date"],
+      .comments-block form .form-group input[type="time"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; }
+        .comments-block form .form-group input[type="text"]:focus,
+        .comments-block form .form-group textarea:focus,
+        .comments-block form .form-group input[type="date"]:focus,
+        .comments-block form .form-group input[type="time"]:focus {
+          outline: none;
+          border-color: #06c; }
+      .comments-block form .form-group .error-message {
+        display: none;
+        color: red;
+        font-size: 14px;
+        margin-top: 5px; }
+      .comments-block form .form-group input[type="date"],
+      .comments-block form .form-group input[type="time"] {
+        display: inline-block;
+        margin-left: 10px;
+        width: auto; }
+    .comments-block form #submit-button {
+      display: block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #06c;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer; }
+      .comments-block form #submit-button:hover {
+        background-color: #0493cc; }
+  .comments-block #comments-list {
+    list-style: none;
+    padding: 0; }
+    .comments-block #comments-list li {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      word-break: break-all; }
+      .comments-block #comments-list li h3 {
+        margin: 0 0 10px;
+        font-size: 18px; }
+      .comments-block #comments-list li p {
+        margin: 0 0 10px;
+        font-size: 16px; }
+      .comments-block #comments-list li span {
+        color: #999;
+        font-size: 14px;
+        margin-top: 5px; }
+      .comments-block #comments-list li button {
+        display: inline-block;
+        margin-left: 10px;
+        cursor: pointer; }
+      .comments-block #comments-list li .liked-btn {
+        color: red; }
